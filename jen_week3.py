@@ -2,6 +2,7 @@ def twoArrays(k, A, B):
     yes = 0
     A.sort()
     B.sort()
+    n = 'yes'
 
     for num_a in A:
 
@@ -19,3 +20,6 @@ def twoArrays(k, A, B):
     else:
 
         return 'NO'
+
+
+print (twoArrays(2, [1,2,3], [1,2,3]))
